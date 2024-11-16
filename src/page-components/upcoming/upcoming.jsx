@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../home/index.css";
 import { Link } from "react-router-dom";
 
-const Upcoming = ({ }) => {
+const Upcoming = () => {
     const [movies, setMovies] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
     const [totalPages, setTotalPages] = useState(0);
