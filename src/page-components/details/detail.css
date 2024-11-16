@@ -1,0 +1,84 @@
+.details-container {
+    display: flex;
+    background-color: #020716;
+    color: #ffffff;
+    /* padding: 20px; */
+    margin: 12px 30px;
+    border-radius: 10px;
+}
+
+.left-conatiner {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+}
+
+.right-img {
+    width: 46vw;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.top-data {
+    display: flex;
+}
+
+.duration {
+    border: 1px solid #fff;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+.runtime {
+    display: flex;
+    align-items: center;
+}
+
+.poster img {
+    border-radius: 10px;
+    width: 120px;
+    height: auto;
+}
+
+.info {
+    margin-left: 20px;
+}
+
+.info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.rating {
+    font-size: 18px;
+    color: #007aff;
+}
+
+.runtime,
+.release-date {
+    margin: 12px 0;
+}
+
+.overview h3 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.overview p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.Cast-conatainer {
+    padding: 4px 36px;
+}
+
+.Cast-conatainer p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.swiper-container {
+    display: flex;
+}
