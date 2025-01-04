@@ -72,7 +72,7 @@ nav .menu span {
     position: relative;
     left: 4px;
     cursor: pointer;
-    border: 1px solid grey; 
+    border: 1px solid grey;
     background: grey;
 }
 
@@ -83,6 +83,11 @@ nav .menu span {
 }
 
 @media (max-width: 480px) {
+    .search-form {
+        align-self: center;
+        margin: 0 0 12px 0;
+    }
+
     nav .menu {
         display: flex;
     }
