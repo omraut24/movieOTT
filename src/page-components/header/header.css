@@ -57,6 +57,31 @@ nav .menu span {
     border-radius: 0.2rem;
 }
 
+.search-form {
+    position: relative;
+    top: 8px;
+}
+
+.search-input {
+    padding: 6px;
+    border-radius: 4px;
+    border: #fff;
+}
+
+.search-button {
+    position: relative;
+    left: 4px;
+    cursor: pointer;
+    border: 1px solid grey; 
+    background: grey;
+}
+
+.search-button p {
+    margin: 0;
+    padding: 4px;
+    color: #fff;
+}
+
 @media (max-width: 480px) {
     nav .menu {
         display: flex;
